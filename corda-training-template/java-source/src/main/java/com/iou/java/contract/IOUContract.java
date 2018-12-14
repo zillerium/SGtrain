@@ -19,6 +19,6 @@ public class IOUContract implements Contract {
     public void verify(TransactionForContract tx) {}
 
     /** This is a reference to the underlying legal contract template and associated parameters. */
-    private final SecureHash legalContractReference = SecureHash.sha256("IOU contract template and params");
+    private final SecureHash legalContractReference = SecureHash.sha256("Etch contract between Alice and Bob");
     @Override public final SecureHash getLegalContractReference() { return legalContractReference; }
 }
